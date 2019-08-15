@@ -12,30 +12,60 @@
 
 <body>
   <div class="container">
-    <h1>Where Should you eat tonight?</h1>
-    <div class="question" id="que1">
+    <div class="" <h1>Where Should you eat tonight?</h1>
       <h4>Do you have a dietery restriction?</h4>
-      <select class="selectpicker" multiple title="Choose one of th following.....">
-        <option></option>
-        <option>Ketchup</option>
-        <option>Relish</option>
+      <select class="selectpicker" id="que1">
+        <option value="">Select One of the Following</option>
+        <option value="veg">vegetarian</option>
+        <option value="glut">gluten free</option>
+        <option value="omni">Omnivore</option>
       </select>
     </div>
-    <div class="question" id="que1">
+    <div class="">
       <h4>Do you have a favourite continent?</h4>
-      <select class="selectpicker" multiple title="Choose one of th following.....">
-        <option></option>
-        <option>Ketchup</option>
-        <option>Relish</option>
+      <select class="selectpicker" id="que2">
+        <option value="">Select One of the Following</option>
+        <option value="Eu">Europe</option>
+        <option value="As">Asia</option>
+        <option value="Af">Africa</option>
+        <option value="SA">South America</option>
       </select>
     </div>
-    <div class="question" id="que1">
+    <div>
       <h4>How much cash can you drop tonight?</h4>
-      <select class="selectpicker" multiple title="Choose one of th following.....">
-        <option></option>
-        <option>Ketchup</option>
-        <option>Relish</option>
+      <select class="selectpicker" id="que3">
+        <option value="">Select One of the Following</option>
+        <option value="small">$</option>
+        <option value="medium">$$</option>
+        <option value="large">$$$</option>
       </select>
+    </div>
+    <button id="submit" type="button" name="button">Submit</button>
+  </div>
+  <div class="restaurant">
+    <div id="R1" class="card veg glut omni Eu large" style="width: 18rem;">
+      <img class="card-img-top" src="images/3.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title 1</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div id="R2" class="card glut omni As small" style="width: 18rem;">
+      <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title 2</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div id="R3" class="card omni SA Af medium" style="width: 18rem;">
+      <img class="card-img-top" src="images/2.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title 3</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
     </div>
   </div>
 
